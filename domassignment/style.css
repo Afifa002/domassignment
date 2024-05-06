@@ -1,0 +1,82 @@
+*{
+    
+  background-color: #D1BB9E;
+  color: #997b53;
+}
+.container {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+}
+.container p{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #A79277;
+    border-radius: 10px;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #A79277;
+    border-radius: 10px;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #A79277;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #A79277;
+    border: 2px solid #A79277;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFF6DC;
+    
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid white;
+    
+}
+
+th, td {
+    border: 1px solid #A79277;
+    border-radius: 10px  ;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #f2f2f2;
+    
+}
